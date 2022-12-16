@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="header-style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon KIT -->
+    <script
+      src="https://kit.fontawesome.com/01dffd6d4f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Netflix</title>
+  </head>
+  <body>
+    <header>
+      <section class="head-header">
+        <img src="header-images/netflix-Logo.svg" alt="logo Netflix" />
+        <div>
+          <!-- <button><i class="fa-sharp fa-solid fa-globe"></i>italiano</button> -->
+          <form action="#">
+            <span><i class="fa-sharp fa-solid fa-globe"></i></span>
+            <select id="lenguage" name="len">
+              <option value="fiat">Italiano</option>
+              <option value="audi">English</option>
+            </select>
+            <span><i class="fa-solid fa-caret-down"></i></span>
+          </form>
+          <button>Accedi</button>
+        </div>
+      </section>
+      <section class="main-header">
+        <h1>Piani per tutte le tasche.</h1>
+        <p>Goditi il piano Base con pubblicità per soli 5,49 €.</p>
+        <button>Inizia <i class="fa-solid fa-chevron-right"></i></button>
+      </section>
+    </header>
+  </body>
 </html>
