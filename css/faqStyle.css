@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap');
 html{
     background-color: rgb(0, 0, 0);
 }
 #faq{
+    font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 1fr;
@@ -13,7 +15,7 @@ html{
 }
 
 svg{
-    width: 35px;
+    width: 25px;
     fill: rgb(255, 255, 255);
     transform: rotate(45deg);
 }
@@ -21,14 +23,16 @@ svg{
 #faq h1{
     text-align: center;
     font-size: 48px;
+    font-weight: 600;
 }
 
 #faq h2{
     margin: 0;
+    font-weight: 500;
 }
 
 #faq-area{
-    width: 70%;
+    width: 65%;
 }
 
 .content-faq{
@@ -38,7 +42,7 @@ svg{
 .faq-question{
     background-color: rgb(48,48,48);
     padding: 0.5rem;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .header-faq{
@@ -57,20 +61,26 @@ svg{
 
 
 #newsletter-faq{
-    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
     text-align: center;
-    width: 60%;
+    width: 50%;
 }
 
 #newsletter-faq form{
-    height: 4rem;
+    width: 85%;
+    height: 3.8rem;
     display: flex;
 }
 
 #newsletter-faq input[type="email"]{
+    font-size: 16px;
     flex: 1;
     border: none;
     outline: none;
+    padding-left: 1rem;
 }
 
 #newsletter-faq input[type="submit"]{
