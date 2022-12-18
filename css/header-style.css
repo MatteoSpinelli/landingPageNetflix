@@ -15,7 +15,7 @@ header {
       transparent 60%,
       rgba(0, 0, 0, 0.8)
     ),
-    url("header-images/header-image.jpg");
+    url("../header-images/header-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
@@ -76,7 +76,7 @@ header {
   position: absolute;
   color: #fff;
   top: 42px;
-  right: 232px;
+  right: 215px;
   font-size: 12px;
 }
 
@@ -85,7 +85,7 @@ header {
   position: absolute;
   color: #fff;
   top: 40px;
-  right: 163px;
+  right: 147px;
   font-size: 15px;
 }
 
@@ -233,12 +233,12 @@ header {
   /* Icon globe */
   .head-header > div > form > span:first-child > i {
     top: 38.4px;
-    right: 185px;
+    right: 168px;
   }
 
   /* Icon arrow down */
   .head-header > div > form > span:last-child > i {
     top: 36px;
-    right: 122px;
+    right: 105px;
   }
 }
