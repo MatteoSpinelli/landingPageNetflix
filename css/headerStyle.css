@@ -9,12 +9,10 @@ body {
 }
 
 header {
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(0, 0, 0, 0.8) 0,
       transparent 60%,
-      rgba(0, 0, 0, 0.8)
-    ),
+      rgba(0, 0, 0, 0.8)),
     url("../header-images/header-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,21 +38,20 @@ header {
 }
 
 /* LOGO NETFLIX */
-.head-header > img {
+.head-header>img {
   width: 222px;
   height: 68px;
 
   /* Change color of svg logo */
-  filter: invert(20%) sepia(69%) saturate(7238%) hue-rotate(347deg)
-    brightness(84%) contrast(118%);
+  filter: invert(20%) sepia(69%) saturate(7238%) hue-rotate(347deg) brightness(84%) contrast(118%);
 }
 
-.head-header > div {
+.head-header>div {
   display: flex;
 }
 
-.head-header > div > button,
-.head-header > div > form > select {
+.head-header>div>button,
+.head-header>div>form>select {
   border-radius: var(--buttonHeaderRadius);
 
   margin: 10px 14px;
@@ -64,7 +61,7 @@ header {
   color: #fff;
 }
 
-.head-header > div > form > select {
+.head-header>div>form>select {
   background-color: black;
   border: 1px solid #fff;
 
@@ -72,7 +69,7 @@ header {
 }
 
 /* Icon globe */
-.head-header > div > form > span:first-child > i {
+.head-header>div>form>span:first-child>i {
   position: absolute;
   color: #fff;
   top: 42px;
@@ -81,7 +78,7 @@ header {
 }
 
 /* Icon arrow down */
-.head-header > div > form > span:last-child > i {
+.head-header>div>form>span:last-child>i {
   position: absolute;
   color: #fff;
   top: 40px;
@@ -90,13 +87,14 @@ header {
 }
 
 /* Button Accedi */
-.head-header > div > button {
+.head-header>div>button {
   background-color: var(--netflixRedColor);
 
   cursor: pointer;
   border: 0px;
   margin-bottom: 24px;
 }
+
 /* || First <section> with logo and 2 button----------END */
 
 /* || Second <section> with main <h1> and <p> and Call to Action----------START */
@@ -110,22 +108,22 @@ header {
   padding: 150px 75px;
 }
 
-.main-header > * {
+.main-header>* {
   margin: 0;
   padding: 0;
 }
 
-.main-header > h1 {
+.main-header>h1 {
   font-size: 64px;
   font-weight: 700;
 }
 
-.main-header > p {
+.main-header>p {
   font-size: 26px;
 }
 
 /* Button Inizia */
-.main-header > button {
+.main-header>button {
   margin: 26px;
   padding: 17px 27px;
   border: 0;
@@ -137,12 +135,12 @@ header {
   font-size: 28px;
 }
 
-.main-header > button:hover {
+.main-header>button:hover {
   background-color: #fd0b17;
 }
 
 /* Icon arrow-right */
-.main-header > button i {
+.main-header>button i {
   font-size: 22px;
 }
 
@@ -151,93 +149,104 @@ header {
 /* || @Media */
 
 @media screen and (max-width: 1450px) {
+
   /* logo */
-  .head-header > img {
+  .head-header>img {
     width: 216px;
     height: 55px;
   }
 
-  .main-header > h1 {
+  .main-header>h1 {
     font-size: 49px;
   }
-  .main-header > button {
+
+  .main-header>button {
     padding: 16px 27px;
     font-size: 26px;
   }
 }
+
 @media screen and (max-width: 950px) {
+
   /* logo */
-  .head-header > img {
+  .head-header>img {
     width: 148px;
     height: 44px;
   }
 
-  .main-header > button {
+  .main-header>button {
     padding: 11px 16px;
     font-size: 16px;
   }
-  .main-header > button i {
+
+  .main-header>button i {
     font-size: 14px;
   }
+
   .main-header {
     padding: 150px 45px;
   }
 }
+
 @media screen and (max-width: 685px) {
   .main-header {
     padding: 150px 35px;
     line-height: 1.1;
   }
 
-  .main-header > h1,
-  .main-header > p {
+  .main-header>h1,
+  .main-header>p {
     text-align: center;
   }
-  .main-header > p {
+
+  .main-header>p {
     margin-top: 16px;
   }
 }
+
 @media screen and (max-width: 549px) {
   header {
     height: 500px;
   }
 
   /* logo */
-  .head-header > img {
+  .head-header>img {
     width: 118px;
   }
-  .main-header > h1 {
+
+  .main-header>h1 {
     font-size: 31px;
   }
-  .main-header > p {
+
+  .main-header>p {
     font-size: 19px;
     margin-top: 16px;
   }
 
-  .head-header > div > button,
-  .head-header > div > form > select {
+  .head-header>div>button,
+  .head-header>div>form>select {
     margin: 10px 14px;
     padding: 4px 8px;
 
     font-size: 15px;
   }
 
-  .head-header > div > button {
+  .head-header>div>button {
     margin-left: 0px;
   }
 
-  .head-header > div > form > select {
+  .head-header>div>form>select {
     padding: 4px 18px;
   }
 
   /* Icon globe */
-  .head-header > div > form > span:first-child > i {
+  .head-header>div>form>span:first-child>i {
     top: 38.4px;
     right: 168px;
   }
 
   /* Icon arrow down */
-  .head-header > div > form > span:last-child > i {
+  .head-header>div>form>span:last-child>i {
     top: 36px;
     right: 105px;
   }
