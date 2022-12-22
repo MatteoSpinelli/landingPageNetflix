@@ -7,7 +7,7 @@ html{
     color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 20% 4fr 1fr;
     justify-items: center;
     align-items: center;
     margin-top: 2rem;
@@ -37,6 +37,10 @@ svg{
 
 .content-faq{
     display: none;
+    align-items: center;
+    padding: 1rem;
+    font-size: 24px;
+    border-top: 1px solid black;
 }
 
 .faq-question{
@@ -55,8 +59,11 @@ svg{
     flex: 1;
 }
 
-.content-faq:hover{
+.faq-question:hover > .content-faq{
     display: block;
+}
+.faq-question:hover svg{
+    rotate: 45deg;
 }
 
 
