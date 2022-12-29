@@ -113,3 +113,16 @@ svg {
     color: white;
     font-size: 24px;
 }
+
+@media (max-width: 948px){
+    #faq-area{
+        width: 100%;
+    }
+    .faq-question{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #newsletter-faq{
+        width: 100%;
+    }
+}
