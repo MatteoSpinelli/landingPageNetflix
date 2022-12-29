@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/sass/loginSASS/loginPage.css" />
+    <link rel="stylesheet" href="css/loginPage.css" />
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,10 +24,20 @@
       <section class="card-login">
         <h1>Accedi</h1>
         <form action="">
-          <label for="login-email">Email o numero di telefono</label>
-          <input type="email" name="login-email" />
-          <label for="login-passw">Password</label>
-          <input type="password" name="login-passw" />
+          <div class="form-card-login">
+            <input type="email" name="login-email" id="login-email" required />
+            <label for="login-email">Email o numero di telefono</label>
+          </div>
+          <div class="form-card-login">
+            <input
+              type="password"
+              name="login-passw"
+              id="login-passw"
+              required
+            />
+            <label for="login-passw">Password</label>
+          </div>
+
           <button>Accedi</button>
           <div class="checkLink-login">
             <div>
@@ -41,22 +51,12 @@
             <p>Prima volta su Netflix? <a href="#">Registrati</a> .</p>
             <p>
               Questa pagina è protetta da Google reCAPTCHA per garantire che tu
-              non sia un bot. <a href="#">Scopri di più.</a> 
+              non sia un bot. <a href="#">Scopri di più.</a>
             </p>
           </div>
         </form>
       </section>
-      <footer>
-        <p>Domande? Chiama 800-130-364</p>
-        <div>
-          <p>Domande frequenti</p>
-          <p>Centro assistenza</p>
-          <p>Condizioni di utilizzo</p>
-          <p>Privacy</p>
-          <p>Preferenze per i cookie</p>
-          <p>Informazioni sull'azienda</p>
-        </div>
-      </footer>
+      <footer></footer>
     </main>
   </body>
 </html>
