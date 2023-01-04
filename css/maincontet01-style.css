@@ -6,11 +6,7 @@
     --color-03: #fff;
 }
 
-* {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
+
 
 
 .content-mainContent01 {
@@ -22,6 +18,7 @@
     padding: 70px 180px; 
     position: relative;
     z-index: 1;
+    overflow-x: hidden;
 }
 
 .items-mainContent01 {
