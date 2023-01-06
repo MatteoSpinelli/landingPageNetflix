@@ -5,10 +5,13 @@
 }
 
 main {
+  font-family: "Palanquin Dark", sans-serif;
   font-size: 16px;
   height: 100%;
   background-image: url("../../../header-images/header-image.jpg");
+  background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  /* Login page footer */
 }
 main header img {
   width: 222px;
@@ -123,22 +126,75 @@ main .card-login form .card-footerText-login p:last-child a:hover {
   text-decoration: underline;
 }
 main footer {
-  height: 242px;
-  padding: 30px 0;
+  max-height: 300px;
+  padding: 1rem;
   background-color: rgba(0, 0, 0, 0.75);
   color: #737373;
   margin-top: 90px;
 }
-main footer p,
-main footer div p {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-main footer div {
+main footer section {
+  padding-top: 1rem;
+  font-size: 0.8rem;
   display: grid;
-  grid-template-columns: repeat(4, 250px);
-  font-size: 13px;
-  justify-items: start;
+  align-items: center;
+  max-height: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2ch 2ch 2ch 1fr;
+  max-width: 70%;
+  margin: auto;
+  gap: 1rem;
+}
+main footer section a {
+  text-decoration: none;
+  color: inherit;
+}
+main footer section #footer-header {
+  font-size: 1rem;
+  grid-column: span 4;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+main footer section div:last-child {
+  grid-row: 4;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  outline: none;
+  padding: 1rem;
+  border: none;
+  border: 1px solid #8c8c8c;
+  margin-top: 1rem;
+  width: 150px;
+}
+main footer section div:last-child img {
+  filter: invert(1);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+main footer section div:last-child select {
+  flex: 1;
+  text-align: right;
+  background-color: black;
+  outline: none;
+  border: none;
+  color: #8c8c8c;
+}
+
+@media (max-width: 746px) {
+  main footer {
+    background-color: black;
+    border-top: 1px solid #8c8c8c;
+  }
+  main footer section {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    max-width: 100%;
+  }
+  main footer section #footer-header {
+    grid-column: span 3;
+  }
 }
 
 /*# sourceMappingURL=loginPage.css.map */
