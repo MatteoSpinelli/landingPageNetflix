@@ -20,7 +20,8 @@ main {
       margin: 1%;
 
       /* Change color of svg logo */
-      filter: invert(20%) sepia(69%) saturate(7238%) hue-rotate(347deg) brightness(84%) contrast(118%);
+      filter: invert(20%) sepia(69%) saturate(7238%) hue-rotate(347deg)
+        brightness(84%) contrast(118%);
     }
   }
 
@@ -69,8 +70,8 @@ main {
           padding: 16px 20px 0 20px;
           margin-bottom: 16px;
 
-          &:focus+label,
-          &:valid+label {
+          &:focus + label,
+          &:valid + label {
             font-size: 11px;
             top: 0.05px;
             pointer-events: none;
@@ -165,7 +166,6 @@ main {
     }
   }
 
-
   /* Login page footer */
 
   footer {
@@ -231,11 +231,21 @@ main {
   }
 }
 
-@media (max-width: 746px) {
+@media screen and (max-width: 740px) {
   main {
+    background-color: #000;
+    background-image: none;
+    .card-login {
+      margin: 0;
+      padding: 0 5%;
+      max-width: none;
+    }
+
     footer {
       background-color: black;
       border-top: 1px solid #8c8c8c;
+
+      margin-top: 0;
 
       section {
         grid-template-rows: auto;
@@ -245,8 +255,18 @@ main {
 
         #footer-header {
           grid-column: span 3;
-
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 440px) {
+  main {
+    header {
+      img {
+        width: 100px;
+        height: 55px;
       }
     }
   }

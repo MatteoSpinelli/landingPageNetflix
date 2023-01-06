@@ -181,10 +181,20 @@ main footer section div:last-child select {
   color: #8c8c8c;
 }
 
-@media (max-width: 746px) {
+@media screen and (max-width: 740px) {
+  main {
+    background-color: #000;
+    background-image: none;
+  }
+  main .card-login {
+    margin: 0;
+    padding: 0 5%;
+    max-width: none;
+  }
   main footer {
     background-color: black;
     border-top: 1px solid #8c8c8c;
+    margin-top: 0;
   }
   main footer section {
     grid-template-rows: auto;
@@ -194,6 +204,12 @@ main footer section div:last-child select {
   }
   main footer section #footer-header {
     grid-column: span 3;
+  }
+}
+@media screen and (max-width: 440px) {
+  main header img {
+    width: 100px;
+    height: 55px;
   }
 }
 
