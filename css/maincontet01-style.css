@@ -21,9 +21,6 @@
     align-items: center;
     border-top: solid 8px var(--color-02);
     border-bottom: solid 8px var(--color-02);
-    z-index: 2;
-    
-}
 
 .block01-mainContent{
     display: block;
@@ -298,7 +295,6 @@
         font-size: 30px;
         font-weight: 700;
         text-align: center;
-    
     }
     
     .h2-01-mainContent {
