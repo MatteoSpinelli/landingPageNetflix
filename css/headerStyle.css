@@ -3,11 +3,6 @@
   --buttonHeaderRadius: 3px;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 header {
   background: linear-gradient(0deg,
       rgba(0, 0, 0, 0.8) 0,
@@ -18,7 +13,7 @@ header {
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
 
-  width: 100vw;
+  max-width: 100%;
   height: 625px;
 
   /* Font similar to Netflix's font */
@@ -50,6 +45,10 @@ header {
   display: flex;
 }
 
+.head-header>div>form {
+  position: relative;
+}
+
 .head-header>div>button,
 .head-header>div>form>select {
   border-radius: var(--buttonHeaderRadius);
@@ -72,8 +71,8 @@ header {
 .head-header>div>form>span:first-child>i {
   position: absolute;
   color: #fff;
-  top: 42px;
-  right: 215px;
+  top: 21.4px;
+  right: 92px;
   font-size: 12px;
 }
 
@@ -81,8 +80,8 @@ header {
 .head-header>div>form>span:last-child>i {
   position: absolute;
   color: #fff;
-  top: 40px;
-  right: 147px;
+  top: 19px;
+  right: 22px;
   font-size: 15px;
 }
 
@@ -241,13 +240,13 @@ header {
 
   /* Icon globe */
   .head-header>div>form>span:first-child>i {
-    top: 38.4px;
-    right: 168px;
+    top: 18.2px;
+    right: 85px;
   }
 
   /* Icon arrow down */
   .head-header>div>form>span:last-child>i {
-    top: 36px;
-    right: 105px;
+    top: 16px;
+    right: 21px;
   }
 }
