@@ -136,6 +136,16 @@
     font-weight: 400;
     font-size: 1.70rem;
 }
+.h1-content-02{
+    display: flex;
+    justify-items: center;
+    color: var(--color-03);
+    font-family: var(--font-family);
+    font-size: 3.3rem;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 10px;
+}
 
 @media screen and (max-width: 948px) {
     .container-maincontent02{
@@ -161,6 +171,18 @@
     .img-content-02{
         min-height: 80%;
     }
+    .h1-content{
+        margin: auto;
+    }
+    .h1-content-02{
+        text-align: center;
+    }
+    .h2-content{
+        text-align: center;
+    }
+    .h2-content-02{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 625px) {
@@ -168,6 +190,10 @@
         height: 625px;
     }
     .h1-content{
+        font-size: 25px;
+        margin: auto;
+    }
+    .h1-content-02{
         font-size: 25px;
         margin: auto;
     }
