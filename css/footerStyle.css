@@ -1,31 +1,32 @@
 footer{
     background-color: black;
+    display: flex;
+    justify-content: center;
 }
 
 .sectionFooter {
     display: grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(auto-fit,1fr);
     border: 2px solid black;
     width: 900px;
-    left: 230px;
-    position: relative;
-    
+
 }
 
-div{
+footer div{
     height: 30px;
+    overflow-y: hidden;
    }
 
-h3{ color: gray;
+footer h3{ color: gray;
     margin-top: 0px;
 }
 
-h5{
+footer h5{
     color:grey;
     margin: 0px;
 }
 
-h4{
+footer h4{
     color: grey;
     margin: 0px;
 }
@@ -145,7 +146,7 @@ h4{
     grid-row: 1;
 }
 
-select{
+footer select{
     border: 1px solid grey;
     background-color: black;
     height: 55px;
