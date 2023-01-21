@@ -1,0 +1,125 @@
+:root {
+    --font-family: 'Roboto', sans-serif;
+    --font-family02: sans-serif;
+    --color-01: #f3f3f3;
+    --color-02: #333;
+    --color-03: #fff;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container-maincontent02{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 8px solid var(--color-02);
+    align-items: center;
+    position: relative;
+}
+
+.padding-container{
+    display: flex;
+    padding: 70px 110px;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.img-content{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.img-content-02{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: flex-end;
+    justify-items: center;
+    width: 100%;
+    min-height: 100%;
+    background:url(/img-MainContent02/mobile-Stranger.jpg) center no-repeat;
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 0px -45px 30px 0px rgba(0,0,0,0.75);
+}
+
+.gif{
+    display: flex;
+    margin-left: 25px;
+}
+
+.overlay{
+    display: flex;
+    padding: 6px;
+}
+
+.text-overlay{
+    display: flex;
+    flex-direction: column;
+}
+
+.download{
+    display: flex;
+    flex-direction: row;
+    border: 4px solid var(--color-02);
+    border-radius: 10px;
+    height: 33%;
+    box-shadow: 0 0 2em 0 #000;
+    background: #000;
+    width: 30%;
+
+}
+
+.h1-overlay{
+    margin-top: 10%;
+    margin-left: 10px;
+    color: var(--color-03);
+    font-family: var(--font-family); 
+    font-size: larger;
+}
+
+.h2-overlay{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #0071eb;
+    font-family: var(--font-family02);
+    font-weight: 500;
+    font-size: large;
+}
+
+.h1-content{
+    display: flex;
+    justify-items: center;
+    color: var(--color-03);
+    font-family: var(--font-family);
+    font-size: 3.3rem;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.h2-content{
+    display: flex;
+    justify-items: center;
+    color: var(--color-03);
+    font-family: var(--font-family02);
+    font-weight: 400;
+    font-size: 1.70rem;
+}
