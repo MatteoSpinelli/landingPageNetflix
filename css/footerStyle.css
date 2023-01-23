@@ -137,7 +137,7 @@ footer h4{
 .f21{
     grid-column: 1/5;
     grid-row: 8;
-    margin-top: 25px;
+    margin-top: 0px;
     margin-bottom: 5px;
 }
 
@@ -149,7 +149,7 @@ footer h4{
 footer select{
     border: 1px solid grey;
     background-color: black;
-    height: 55px;
+    height: 40px;
     width: 132px;
     color: grey;
 }
