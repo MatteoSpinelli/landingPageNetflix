@@ -1,79 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/loginPage.css" />
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/loginPage.css" />
 
-    <title>Netflix</title>
-  </head>
-  <body>
-    <main>
-      <header>
-        <img src="header-images/netflix-Logo.svg" alt="logo Netflix" />
-      </header>
-      <section class="card-login">
-        <h1>Accedi</h1>
-        <form action="">
-          <div class="form-card-login">
-            <input type="email" name="login-email" id="login-email" required />
-            <label for="login-email">Email o numero di telefono</label>
-          </div>
-          <div class="form-card-login">
-            <input
-              type="password"
-              name="login-passw"
-              id="login-passw"
-              required
-            />
-            <label for="login-passw">Password</label>
-          </div>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;700&display=swap" rel="stylesheet" />
 
-          <button>Accedi</button>
-          <div class="checkLink-login">
-            <div>
-              <input type="checkbox" name="check" id="check" checked />
-              <label for="check">Ricordami</label>
-            </div>
+  <title>Netflix</title>
+</head>
 
-            <a href="#">Serve aiuto?</a>
-          </div>
-          <div class="card-footerText-login">
-            <p>Prima volta su Netflix? <a href="#">Registrati</a> .</p>
-            <p>
-              Questa pagina è protetta da Google reCAPTCHA per garantire che tu
-              non sia un bot. <a href="#">Scopri di più.</a>
-            </p>
-          </div>
-        </form>
-      </section>
-      <footer>
-        <section>
-          <div id="footer-header">Domande? Chiama 800-130-364</div>
-          <p class="options"><a href="#">Domande frequenti</a></p>
-          <p class="options"><a href="#">Centro assistenza</a></p>
-          <p class="options"><a href="#">Condizioni di utilizzo</a></p>
-          <p class="options"><a href="#">Privacy</a></p>
-          <p class="options"><a href="#">Preferenze per i cookie</a></p>
-          <p class="options"><a href="#">Informazioni sull'azienda</a></p>
+<body>
+  <main>
+    <header>
+      <a href="/"><img src="header-images/netflix-Logo.svg" alt="logo Netflix" /></a>
+    </header>
+    <section class="card-login">
+      <h1>Accedi</h1>
+      <form action="">
+        <div class="form-card-login">
+          <input type="email" name="login-email" id="login-email" required />
+          <label for="login-email">Email o numero di telefono</label>
+        </div>
+        <div class="form-card-login">
+          <input type="password" name="login-passw" id="login-passw" required />
+          <label for="login-passw">Password</label>
+        </div>
+
+        <button>Accedi</button>
+        <div class="checkLink-login">
           <div>
-            <img src="img-loginPage/world.png" alt="language switcher">
-            <select name="language" id="language">
-              <option value="">Italiano</option>
-              <option value="">English</option>
-            </select>
+            <input type="checkbox" name="check" id="check" checked />
+            <label for="check">Ricordami</label>
           </div>
-        </section>
-      </footer>
-    </main>
-  </body>
+
+          <a href="#">Serve aiuto?</a>
+        </div>
+        <div class="card-footerText-login">
+          <p>Prima volta su Netflix? <a href="#">Registrati</a> .</p>
+          <p>
+            Questa pagina è protetta da Google reCAPTCHA per garantire che tu
+            non sia un bot. <a href="#">Scopri di più.</a>
+          </p>
+        </div>
+      </form>
+    </section>
+    <footer>
+      <section>
+        <div id="footer-header">Domande? Chiama 800-130-364</div>
+        <p class="options"><a href="#">Domande frequenti</a></p>
+        <p class="options"><a href="#">Centro assistenza</a></p>
+        <p class="options"><a href="#">Condizioni di utilizzo</a></p>
+        <p class="options"><a href="#">Privacy</a></p>
+        <p class="options"><a href="#">Preferenze per i cookie</a></p>
+        <p class="options"><a href="#">Informazioni sull'azienda</a></p>
+        <div>
+          <img src="img-loginPage/world.png" alt="language switcher">
+          <select name="language" id="language">
+            <option value="">Italiano</option>
+            <option value="">English</option>
+          </select>
+        </div>
+      </section>
+    </footer>
+  </main>
+</body>
+
 </html>
