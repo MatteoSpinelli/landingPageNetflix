@@ -208,8 +208,11 @@
     .text-box{
         height: 100px;
     }
+    .container-maincontent02 .text-box{
+        margin-bottom: 2rem;
+    }
     .img-content{
-        height: 55%;
+        height: 40%;
     }
     .img-content-02{
         min-height:55%;
